@@ -1,0 +1,25 @@
+### Parameters for RTPs events extraction:
+## Parameters description
+# Fs = sampling frequency of the signal (in Hz)
+# l_bound = lower bound frequency band (in Hz)
+# u_bound = upper bound frequency band (in Hz)
+# WL = Window lenght for LS smoothing (in time step)
+# Percentile = percentile value
+# Use parameter combination l_bound=[negative_number] u_bound=[negative_number] to consider all the signal frequences.
+
+#Fs		
+[100]
+
+#l_bound
+[-4]
+
+#u_bound
+[-2]
+
+#WL
+[200]
+
+#Percentile
+[85, 90]
+
+

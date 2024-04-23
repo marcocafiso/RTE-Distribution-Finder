@@ -1,0 +1,59 @@
+### Input parameters for the simulation:
+## Parameters description
+# WTs_distribution_list = choose the WTs distribution (0 = Exponential WTs distribution, 1 = Power-Law WTs distribution, 2 = Uniform WTs distribution)
+# Ts = sampling time of the simulation
+# perc_sigma2 = noise percentage variance with respect signal variance (set number between 0 and 1) 
+# average_noise = noise mean
+# alpha = parameter for the alpha-function as impulse response (set at [NaN] if you want to use the other impulse response)
+# gamma = parameter for the underdumped oscillator function as impulse response (must be > 1 and < 2*omega_0)
+# omega_0_min_list = set min of omega_0 for the underdumped oscillator function as impulse response (must be > 1 and > gamma/2)
+# omega_0_max_list = set max of omega_0 for the underdumped oscillator function as impulse response
+# amp_impulses = a list with two numbers that define the minimum and maximum amplitudes for the impulses
+# n_impulse = number of impulses 
+# r_p = parameter for Exp distribution (set at 1)
+# mu = parameter for power-law distribution (number between 1.5 and 3)
+# tau = mean WTs (set at 1) (power-law WTs distribution)
+# seed_values = set the values of the seed for the random generators
+
+
+#WTs_distribution_list
+[1]
+
+#Ts
+[0.01]
+
+#perc_sigma2
+[0.10]
+
+#average_noise	
+[0]
+
+#alpha
+[NaN]
+
+#gamma
+[1.1]
+
+#omega_0_min_list
+[50]
+
+#omega_0_max_list
+[75]
+
+#amp_impulses
+[1, 10]
+
+#n_impulse
+[2000]
+
+#r_p
+[1]
+
+#mu
+[2.5]
+
+#tau
+[1]
+
+#seed_values
+[1]
