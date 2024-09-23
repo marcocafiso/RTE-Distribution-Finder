@@ -5,6 +5,7 @@
 # u_bound = upper bound frequency band (in Hz)
 # WL = Window lenght for LS smoothing (in time step)
 # Percentile = percentile value
+# N_der = Symmetrical time-steps used to estimate the derivative of the envelope of the signal
 # Use parameter combination l_bound=[negative_number] u_bound=[negative_number] to consider all the signal frequences.
 
 #Fs		
@@ -21,5 +22,8 @@
 
 #Percentile
 [85, 90]
+
+#N_der
+[5]
 
 
