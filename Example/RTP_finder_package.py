@@ -78,7 +78,6 @@ def RTP(signal, sfreq, percentile=90, n=5):
     Input:
         - signal: signal timeseries
         - sfreq: sampling frequency of signal
-        - N: window length for signal filtering
         - percentile: threshold for selecting true events
     Output:
         - true_RTP: selected RTP events
