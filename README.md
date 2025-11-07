@@ -1,6 +1,6 @@
-# RTPs-Distribution-Finder
+# RTE-Distribution-Finder
 
-Python package to **detect and plot Rapid Transition Events (RTPs)** in continuous signals.
+Python package to **detect and plot Rapid Transition Events (RTEs)** in continuous signals.
 
 📄 **Reference:** [ArXiv:2506.06168](https://arxiv.org/abs/2506.06168)
 
@@ -10,22 +10,22 @@ Python package to **detect and plot Rapid Transition Events (RTPs)** in continuo
 
 `RTPs-Distribution-Finder` provides simple tools to:
 - Detect rapid transitions in continuous or noisy signals (also multichannel signals, e.g. EEG, MEG, ect...)  
-- Visualize RTPs as a simple raster plot 
+- Visualize RTEs as a simple raster plot 
 
 ---
 
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/yourusername/RTPs-Distribution-Finder.git
-cd RTPs-Distribution-Finder
+git clone https://github.com/marcocafiso/RTE-Distribution-Finder.git
+cd RTE-Distribution-Finder
 pip install -r requirements.txt
 ```
 
 To use the package:
 
 ```bash
-import RTP_finder_package
+import RTE_finder_package
 ```
 
 ## 🧩 Example
@@ -33,7 +33,7 @@ import RTP_finder_package
 To see an usage example, navigate to the **`Example/`** folder and run:
 
 ```bash
-python example_RTPf.py
+python Example_RTE_finder.py
 ```
 
 
