@@ -33,7 +33,7 @@ import RTE_finder_package
 To see an usage example, navigate to the **`Example/`** folder and run:
 
 ```bash
-python Example_RTE_finder.py
+python Example_RTE_Finder.py
 ```
 
 
