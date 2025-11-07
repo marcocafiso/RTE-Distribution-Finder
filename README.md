@@ -9,7 +9,7 @@ Python package to **detect and plot Rapid Transition Events (RTPs)** in continuo
 ## 🔍 Overview
 
 `RTPs-Distribution-Finder` provides simple tools to:
-- Detect rapid transitions in continuous or noisy signals  
+- Detect rapid transitions in continuous or noisy signals (also multichannel signals, e.g. EEG, MEG, ect...)  
 - Visualize RTPs as a simple raster plot 
 
 ---
