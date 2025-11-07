@@ -16,11 +16,17 @@ Python package to **detect and plot Rapid Transition Events (RTPs)** in continuo
 
 ## ⚙️ Installation
 
+```bash
 git clone https://github.com/yourusername/RTPs-Distribution-Finder.git
 cd RTPs-Distribution-Finder
 pip install -r requirements.txt
+```
 
-from rtps_distribution_finder import RTPFinder, plot_rtp_distribution
+To use the package:
+
+```bash
+import RTP_finder_package
+```
 
 ## 🧩 Example
 
@@ -28,7 +34,7 @@ To see an usage example, navigate to the **`Example/`** folder and run:
 
 ```bash
 python example_RTPf.py
-
+```
 
 
 
