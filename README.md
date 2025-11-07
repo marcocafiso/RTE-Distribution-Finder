@@ -22,13 +22,12 @@ pip install -r requirements.txt
 
 from rtps_distribution_finder import RTPFinder, plot_rtp_distribution
 
-## 🧠 Quick Example
+## 🧩 Example
 
-signal = your_signal_array
-rtp = RTPFinder(signal, sampling_rate=1000)
+To see an usage example, navigate to the **`Example/`** folder and run:
 
-events = rtp.detect(threshold=0.05)
-plot_rtp_distribution(events)
+```bash
+python example_RTPf.py
 
 
 
