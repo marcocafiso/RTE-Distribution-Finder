@@ -2,6 +2,3 @@ numpy
 scipy
 pandas
 matplotlib
-MFDFA
-pwlf
-Pillow
