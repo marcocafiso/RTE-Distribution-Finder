@@ -110,8 +110,8 @@ def RTP(signal, sfreq, percentile=90, n=5):
         """
         This function looks for statistically significant RTPs (step 2).
 
-        From the signal (TS - LS or only TS) we estimated is derivative for each
-        time-step by using the previous and next 12 points. 
+        From the signal (TS) we estimated is derivative for each
+        time-step by using the previous and next n points. 
         After we extract from the distribution of the derivative only the time-steps
         regarding the desired percentile value of the distribution.
 
@@ -188,7 +188,7 @@ def signal_bandpass_filter(data, band_values, fs, order=5):
     return np.asarray(y)
 
 
-def full_RTP(signal, bands, fs, percentile, n_der, level_signal='True'):
+def full_RTP(signal, bands, fs, percentile, n_der):
     """
     This function finds the RTPs sequences in the signal channels.
     Input:
