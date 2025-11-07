@@ -78,7 +78,6 @@ def RTP(signal, sfreq, percentile=90, n=5):
     Input:
         - signal: signal timeseries
         - sfreq: sampling frequency of signal
-        - N: window length for signal filtering
         - percentile: threshold for selecting true events
     Output:
         - true_RTP: selected RTP events
@@ -195,7 +194,6 @@ def full_RTP(signal, bands, fs, percentile, n_der):
         - signal: DataFrame of signal timeseries in each channel
         - bands: frequency bands of interest
         - fs: sampling frequancy
-        - N: window length for signal filtering
         - percentile: threshold for selecting true events
     Output:
         - ch_RTP: pd.DataFrame with columns ['Channel'], ['Band'], ['Events']
